@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FinanceTracker</string>
+    <string name="settings_currency">Currency Settings</string>
+    <string name="hint_currency">Select currency</string>
+    <string name="btn_save">Save</string>
+    <string name="settings_backup">Backup Your Data</string>
+    <string name="settings_restore">Restore Your Data</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+
+</resources>

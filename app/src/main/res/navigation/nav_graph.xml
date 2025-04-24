@@ -1,0 +1,40 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.financetracker.HomeFragment"
+        android:label="Home" />
+
+    <!-- Budget Fragment -->
+    <fragment
+        android:id="@+id/budgetFragment"
+        android:name="com.example.financetracker.BudgetFragment"
+        android:label="Budget" />
+
+
+    <fragment
+        android:id="@+id/reminderFragment"
+        android:name="com.example.financetracker.ReminderFragment"
+        android:label="Reminder" />
+
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.financetracker.ui.ProfileFragment"
+        android:label="Profile" />
+
+
+
+
+    <!-- Settings Fragment -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.financetracker.SettingsFragment"
+        android:label="Settings" />
+
+</navigation>
